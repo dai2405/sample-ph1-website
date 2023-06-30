@@ -252,3 +252,48 @@ figure.about-image img{
   width: 100%;
   height: 200px;
 }
+
+.event-slide{
+  overflow: auto
+}
+
+.event-list{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.event-itemImage img{
+  width: 100%;
+  height: 200px;
+}
+
+.event-itemName{
+  margin-top: 4px;
+  font-size: 18px;
+  line-height: 1.8;
+  letter-spacing:0.1em;
+  font-weight: bold;
+}
+
+.event-itemDate{
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.1em;
+  background: #0071bc;
+  color: #ffffff;
+  display: inline-block;
+  padding: 0 12px;
+  border-radius: 5em;
+  margin-top: 15px;
+  width: 80%;
+}
+
+.section-lead{
+  margin: 30px;
+}
+
+.event-lead{
+  margin: 8px;
+  font-weight: bold;
+}
